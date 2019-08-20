@@ -1,0 +1,299 @@
+2019-08-07T00:43:53.653Z - normal: Load ~/.CocosCreator/settings.json
+2019-08-07T00:43:53.659Z - normal: checking language setting...
+2019-08-07T00:43:53.659Z - normal: Language: zh
+2019-08-07T00:43:54.280Z - success: protocol editor-framework registered
+2019-08-07T00:43:54.280Z - success: protocol app registered
+2019-08-07T00:43:54.280Z - success: protocol theme registered
+2019-08-07T00:43:54.280Z - success: protocol packages registered
+2019-08-07T00:43:54.281Z - success: protocol unpack registerred
+2019-08-07T00:43:54.281Z - success: protocol disable-commonjs registerred
+2019-08-07T00:43:54.385Z - normal: connected!
+2019-08-07T00:43:54.388Z - normal: Check project /Users/zckj/demo/Dome
+2019-08-07T00:43:54.390Z - normal: Initializing project /Users/zckj/demo/Dome
+2019-08-07T00:43:54.395Z - normal: Initializing Cocos2d
+2019-08-07T00:43:54.740Z - normal: Initializing Asset Database
+2019-08-07T00:43:54.775Z - success: protocol uuid registerred
+2019-08-07T00:43:54.776Z - success: protocol db registerred
+2019-08-07T00:43:54.777Z - success: protocol thumbnail registerred
+2019-08-07T00:43:54.777Z - normal: Loading editor/builtin packages
+2019-08-07T00:43:54.927Z - success: assets loaded
+2019-08-07T00:43:54.931Z - success: builder loaded
+2019-08-07T00:43:54.933Z - success: cocos-analytics loaded
+2019-08-07T00:43:54.938Z - success: console loaded
+2019-08-07T00:43:54.980Z - success: fb-instant-games loaded
+2019-08-07T00:43:54.985Z - success: hierarchy loaded
+2019-08-07T00:43:54.993Z - success: inspector loaded
+2019-08-07T00:43:54.996Z - success: keystore loaded
+2019-08-07T00:43:55.001Z - success: node-library loaded
+2019-08-07T00:43:55.002Z - success: package-asset loaded
+2019-08-07T00:43:55.004Z - success: preferences loaded
+2019-08-07T00:43:55.008Z - success: project-exporter loaded
+2019-08-07T00:43:55.027Z - success: project-importer loaded
+2019-08-07T00:43:55.030Z - success: project-settings loaded
+2019-08-07T00:43:55.039Z - success: ui-kit loaded
+2019-08-07T00:43:55.046Z - success: scene loaded
+2019-08-07T00:43:55.047Z - success: sprite-editor loaded
+2019-08-07T00:43:55.052Z - success: store loaded
+2019-08-07T00:43:55.060Z - success: timeline loaded
+2019-08-07T00:43:55.061Z - normal: Loading builtin packages
+2019-08-07T00:43:55.067Z - success: asset-db-debugger loaded
+2019-08-07T00:43:55.068Z - success: color-picker loaded
+2019-08-07T00:43:55.070Z - success: jsb-adapter loaded
+2019-08-07T00:43:55.078Z - success: package-manager loaded
+2019-08-07T00:43:55.080Z - success: qqplay-adapter loaded
+2019-08-07T00:43:55.086Z - success: sdkbox loaded
+2019-08-07T00:43:55.096Z - success: tester loaded
+2019-08-07T00:43:55.103Z - success: ui-grid loaded
+2019-08-07T00:43:55.110Z - success: ui-kit-preview-extra loaded
+2019-08-07T00:43:55.116Z - success: ui-kit-preview loaded
+2019-08-07T00:43:55.120Z - success: ui-tree loaded
+2019-08-07T00:43:55.122Z - success: weapp-adapter loaded
+2019-08-07T00:43:56.365Z - normal: Loading packages
+2019-08-07T00:43:56.379Z - success: custom-button loaded
+2019-08-07T00:43:56.383Z - success: nick loaded
+2019-08-07T00:43:56.383Z - normal: Watching packages
+2019-08-07T00:43:56.463Z - normal: Run Application
+2019-08-07T00:43:57.439Z - success: preview server running at http://localhost:7456
+2019-08-07T01:24:31.209Z - error: Error: ENOENT: no such file or directory, open '/Users/zckj/demo/Dome/local/local.json'
+    at Object.fs.openSync (fs.js:584:18)
+    at Object.module.(anonymous function) [as openSync] (ELECTRON_ASAR.js:191:20)
+    at Object.fs.writeFileSync (fs.js:1326:33)
+    at _Profile.save (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/electron-profile/lib/main.js:195:8)
+    at _setCurrentScene (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/scene/main.js:1:1205)
+    at Object.set-current-scene (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/scene/main.js:1:3314)
+    at emitTwo (events.js:106:13)
+    at EventEmitter.emit (events.js:194:7)
+    at _main2mainOpts (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/main/ipc.js:1:2073)
+    at Object.Ipc.sendToMain (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/main/ipc.js:1:4242)
+    at process.on.t (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/core/editor-init.js:1:360)
+    at emitOne (events.js:101:20)
+    at process.emit (events.js:191:7)
+    at process._fatalException (bootstrap_node.js:308:26)
+2019-08-07T01:24:32.826Z - error: Error: ENOENT: no such file or directory, open '/Users/zckj/demo/Dome/local/layout.windows.json'
+    at Object.fs.openSync (fs.js:584:18)
+    at Object.module.(anonymous function) [as openSync] (ELECTRON_ASAR.js:191:20)
+    at Object.fs.writeFileSync (fs.js:1326:33)
+    at _Profile.save (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/electron-profile/lib/main.js:195:8)
+    at Function._saveWindowStates (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/main/window.js:1:8194)
+    at BrowserWindow.Window.nativeWin.on.e (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/main/window.js:1:2119)
+    at emitOne (events.js:101:20)
+    at BrowserWindow.emit (events.js:191:7)
+    at process.on.t (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/core/editor-init.js:1:360)
+    at emitOne (events.js:101:20)
+    at process.emit (events.js:191:7)
+    at process._fatalException (bootstrap_node.js:308:26)
+2019-08-07T01:24:32.837Z - error: Error: ENOENT: no such file or directory, open '/Users/zckj/demo/Dome/local/assets.json'
+    at Object.fs.openSync (fs.js:584:18)
+    at Object.module.(anonymous function) [as openSync] (ELECTRON_ASAR.js:191:20)
+    at Object.fs.writeFileSync (fs.js:1326:33)
+    at _Profile.save (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/electron-profile/lib/main.js:195:8)
+    at EventEmitter.ipcMain.on (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/electron-profile/lib/main.js:237:10)
+    at emitThree (events.js:116:13)
+    at EventEmitter.emit (events.js:197:7)
+    at WebContents.<anonymous> (/Applications/CocosCreator.app/Contents/Resources/electron.asar/browser/api/web-contents.js:247:13)
+    at emitTwo (events.js:106:13)
+    at WebContents.emit (events.js:194:7)
+    at process.on.t (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/core/editor-init.js:1:360)
+    at emitOne (events.js:101:20)
+    at process.emit (events.js:191:7)
+    at process._fatalException (bootstrap_node.js:308:26)
+2019-08-07T01:24:32.910Z - error: Error: ENOENT: no such file or directory, open '/Users/zckj/demo/Dome/local/assets.json'
+    at Object.fs.openSync (fs.js:584:18)
+    at Object.module.(anonymous function) [as openSync] (ELECTRON_ASAR.js:191:20)
+    at Object.fs.writeFileSync (fs.js:1326:33)
+    at _Profile.save (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/electron-profile/lib/main.js:195:8)
+    at EventEmitter.ipcMain.on (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/electron-profile/lib/main.js:237:10)
+    at emitThree (events.js:116:13)
+    at EventEmitter.emit (events.js:197:7)
+    at WebContents.<anonymous> (/Applications/CocosCreator.app/Contents/Resources/electron.asar/browser/api/web-contents.js:247:13)
+    at emitTwo (events.js:106:13)
+    at WebContents.emit (events.js:194:7)
+    at process.on.t (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/core/editor-init.js:1:360)
+    at emitOne (events.js:101:20)
+    at process.emit (events.js:191:7)
+    at process._fatalException (bootstrap_node.js:308:26)
+2019-08-07T01:24:38.660Z - error: Error: ENOENT: no such file or directory, open '/Users/zckj/demo/Dome/local/layout.windows.json'
+    at Object.fs.openSync (fs.js:584:18)
+    at Object.module.(anonymous function) [as openSync] (ELECTRON_ASAR.js:191:20)
+    at Object.fs.writeFileSync (fs.js:1326:33)
+    at _Profile.save (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/electron-profile/lib/main.js:195:8)
+    at Function._saveWindowStates (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/main/window.js:1:8194)
+    at EventEmitter.ipcMain.on (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/main/window.js:1:10072)
+    at emitTwo (events.js:106:13)
+    at EventEmitter.emit (events.js:194:7)
+    at WebContents.<anonymous> (/Applications/CocosCreator.app/Contents/Resources/electron.asar/browser/api/web-contents.js:247:13)
+    at emitTwo (events.js:106:13)
+    at process.on.t (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/core/editor-init.js:1:360)
+    at emitOne (events.js:101:20)
+    at process.emit (events.js:191:7)
+    at process._fatalException (bootstrap_node.js:308:26)
+2019-08-07T01:24:47.522Z - error: Error: ENOENT: no such file or directory, open '/Users/zckj/demo/Dome/local/layout.windows.json'
+    at Object.fs.openSync (fs.js:584:18)
+    at Object.module.(anonymous function) [as openSync] (ELECTRON_ASAR.js:191:20)
+    at Object.fs.writeFileSync (fs.js:1326:33)
+    at _Profile.save (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/electron-profile/lib/main.js:195:8)
+    at Function._saveWindowStates (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/main/window.js:1:8194)
+    at BrowserWindow.Window.nativeWin.on.e (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/main/window.js:1:2119)
+    at emitOne (events.js:101:20)
+    at BrowserWindow.emit (events.js:191:7)
+    at process.on.t (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/core/editor-init.js:1:360)
+    at emitOne (events.js:101:20)
+    at process.emit (events.js:191:7)
+    at process._fatalException (bootstrap_node.js:308:26)
+2019-08-07T01:24:47.527Z - error: Error: ENOENT: no such file or directory, open '/Users/zckj/demo/Dome/local/assets.json'
+    at Object.fs.openSync (fs.js:584:18)
+    at Object.module.(anonymous function) [as openSync] (ELECTRON_ASAR.js:191:20)
+    at Object.fs.writeFileSync (fs.js:1326:33)
+    at _Profile.save (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/electron-profile/lib/main.js:195:8)
+    at EventEmitter.ipcMain.on (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/electron-profile/lib/main.js:237:10)
+    at emitThree (events.js:116:13)
+    at EventEmitter.emit (events.js:197:7)
+    at WebContents.<anonymous> (/Applications/CocosCreator.app/Contents/Resources/electron.asar/browser/api/web-contents.js:247:13)
+    at emitTwo (events.js:106:13)
+    at WebContents.emit (events.js:194:7)
+    at process.on.t (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/core/editor-init.js:1:360)
+    at emitOne (events.js:101:20)
+    at process.emit (events.js:191:7)
+    at process._fatalException (bootstrap_node.js:308:26)
+2019-08-07T01:24:47.561Z - error: Error: ENOENT: no such file or directory, open '/Users/zckj/demo/Dome/local/assets.json'
+    at Object.fs.openSync (fs.js:584:18)
+    at Object.module.(anonymous function) [as openSync] (ELECTRON_ASAR.js:191:20)
+    at Object.fs.writeFileSync (fs.js:1326:33)
+    at _Profile.save (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/electron-profile/lib/main.js:195:8)
+    at EventEmitter.ipcMain.on (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/electron-profile/lib/main.js:237:10)
+    at emitThree (events.js:116:13)
+    at EventEmitter.emit (events.js:197:7)
+    at WebContents.<anonymous> (/Applications/CocosCreator.app/Contents/Resources/electron.asar/browser/api/web-contents.js:247:13)
+    at emitTwo (events.js:106:13)
+    at WebContents.emit (events.js:194:7)
+    at process.on.t (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/core/editor-init.js:1:360)
+    at emitOne (events.js:101:20)
+    at process.emit (events.js:191:7)
+    at process._fatalException (bootstrap_node.js:308:26)
+2019-08-07T01:24:53.214Z - error: Error: ENOENT: no such file or directory, open '/Users/zckj/demo/Dome/local/layout.windows.json'
+    at Object.fs.openSync (fs.js:584:18)
+    at Object.module.(anonymous function) [as openSync] (ELECTRON_ASAR.js:191:20)
+    at Object.fs.writeFileSync (fs.js:1326:33)
+    at _Profile.save (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/electron-profile/lib/main.js:195:8)
+    at Function._saveWindowStates (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/main/window.js:1:8194)
+    at EventEmitter.ipcMain.on (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/main/window.js:1:10072)
+    at emitTwo (events.js:106:13)
+    at EventEmitter.emit (events.js:194:7)
+    at WebContents.<anonymous> (/Applications/CocosCreator.app/Contents/Resources/electron.asar/browser/api/web-contents.js:247:13)
+    at emitTwo (events.js:106:13)
+    at process.on.t (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/core/editor-init.js:1:360)
+    at emitOne (events.js:101:20)
+    at process.emit (events.js:191:7)
+    at process._fatalException (bootstrap_node.js:308:26)
+2019-08-07T01:24:53.974Z - error: Error: ENOENT: no such file or directory, open '/Users/zckj/demo/Dome/local/layout.windows.json'
+    at Object.fs.openSync (fs.js:584:18)
+    at Object.module.(anonymous function) [as openSync] (ELECTRON_ASAR.js:191:20)
+    at Object.fs.writeFileSync (fs.js:1326:33)
+    at _Profile.save (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/electron-profile/lib/main.js:195:8)
+    at Function._saveWindowStates (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/main/window.js:1:8194)
+    at Window.forceClose (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/main/window.js:1:3567)
+    at EditorM.Window.windows.forEach.e (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/index.js:1:3169)
+    at Array.forEach (native)
+    at App.app.on (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/index.js:1:3155)
+    at emitOne (events.js:96:13)
+    at process.on.t (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/core/editor-init.js:1:360)
+    at emitOne (events.js:101:20)
+    at process.emit (events.js:191:7)
+    at process._fatalException (bootstrap_node.js:308:26)
+2019-08-07T01:24:53.979Z - error: Error: ENOENT: no such file or directory, open '/Users/zckj/demo/Dome/local/layout.windows.json'
+    at Object.fs.openSync (fs.js:584:18)
+    at Object.module.(anonymous function) [as openSync] (ELECTRON_ASAR.js:191:20)
+    at Object.fs.writeFileSync (fs.js:1326:33)
+    at _Profile.save (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/electron-profile/lib/main.js:195:8)
+    at Function._saveWindowStates (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/main/window.js:1:8194)
+    at BrowserWindow.Window.nativeWin.on.e (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/main/window.js:1:2119)
+    at emitOne (events.js:101:20)
+    at BrowserWindow.emit (events.js:191:7)
+    at process.on.t (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/core/editor-init.js:1:360)
+    at emitOne (events.js:101:20)
+    at process.emit (events.js:191:7)
+    at process._fatalException (bootstrap_node.js:308:26)
+2019-08-07T01:24:54.081Z - error: Error: ENOENT: no such file or directory, open '/Users/zckj/demo/Dome/local/layout.windows.json'
+    at Object.fs.openSync (fs.js:584:18)
+    at Object.module.(anonymous function) [as openSync] (ELECTRON_ASAR.js:191:20)
+    at Object.fs.writeFileSync (fs.js:1326:33)
+    at _Profile.save (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/electron-profile/lib/main.js:195:8)
+    at Function._saveWindowStates (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/main/window.js:1:8194)
+    at BrowserWindow.Window.nativeWin.on.e (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/main/window.js:1:2119)
+    at emitOne (events.js:96:13)
+    at BrowserWindow.emit (events.js:191:7)
+    at process.on.t (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/core/editor-init.js:1:360)
+    at emitOne (events.js:101:20)
+    at process.emit (events.js:191:7)
+    at process._fatalException (bootstrap_node.js:308:26)
+2019-08-07T01:24:54.184Z - error: Error: ENOENT: no such file or directory, open '/Users/zckj/demo/Dome/local/layout.windows.json'
+    at Object.fs.openSync (fs.js:584:18)
+    at Object.module.(anonymous function) [as openSync] (ELECTRON_ASAR.js:191:20)
+    at Object.fs.writeFileSync (fs.js:1326:33)
+    at _Profile.save (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/electron-profile/lib/main.js:195:8)
+    at Function._saveWindowStates (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/main/window.js:1:8194)
+    at BrowserWindow.Window.nativeWin.on.e (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/main/window.js:1:2119)
+    at emitOne (events.js:96:13)
+    at BrowserWindow.emit (events.js:191:7)
+    at process.on.t (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/core/editor-init.js:1:360)
+    at emitOne (events.js:101:20)
+    at process.emit (events.js:191:7)
+    at process._fatalException (bootstrap_node.js:308:26)
+2019-08-07T01:24:54.291Z - error: Error: ENOENT: no such file or directory, open '/Users/zckj/demo/Dome/local/assets.json'
+    at Object.fs.openSync (fs.js:584:18)
+    at Object.module.(anonymous function) [as openSync] (ELECTRON_ASAR.js:191:20)
+    at Object.fs.writeFileSync (fs.js:1326:33)
+    at _Profile.save (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/electron-profile/lib/main.js:195:8)
+    at EventEmitter.ipcMain.on (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/electron-profile/lib/main.js:237:10)
+    at emitThree (events.js:116:13)
+    at EventEmitter.emit (events.js:197:7)
+    at WebContents.<anonymous> (/Applications/CocosCreator.app/Contents/Resources/electron.asar/browser/api/web-contents.js:247:13)
+    at emitTwo (events.js:106:13)
+    at WebContents.emit (events.js:194:7)
+    at process.on.t (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/core/editor-init.js:1:360)
+    at emitOne (events.js:101:20)
+    at process.emit (events.js:191:7)
+    at process._fatalException (bootstrap_node.js:308:26)
+2019-08-07T01:24:54.637Z - error: Error: ENOENT: no such file or directory, open '/Users/zckj/demo/Dome/local/assets.json'
+    at Object.fs.openSync (fs.js:584:18)
+    at Object.module.(anonymous function) [as openSync] (ELECTRON_ASAR.js:191:20)
+    at Object.fs.writeFileSync (fs.js:1326:33)
+    at _Profile.save (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/electron-profile/lib/main.js:195:8)
+    at EventEmitter.ipcMain.on (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/electron-profile/lib/main.js:237:10)
+    at emitThree (events.js:116:13)
+    at EventEmitter.emit (events.js:197:7)
+    at WebContents.<anonymous> (/Applications/CocosCreator.app/Contents/Resources/electron.asar/browser/api/web-contents.js:247:13)
+    at emitTwo (events.js:106:13)
+    at WebContents.emit (events.js:194:7)
+    at process.on.t (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/core/editor-init.js:1:360)
+    at emitOne (events.js:101:20)
+    at process.emit (events.js:191:7)
+    at process._fatalException (bootstrap_node.js:308:26)
+2019-08-07T01:24:58.830Z - error: Error: ENOENT: no such file or directory, open '/Users/zckj/demo/Dome/local/layout.windows.json'
+    at Object.fs.openSync (fs.js:584:18)
+    at Object.module.(anonymous function) [as openSync] (ELECTRON_ASAR.js:191:20)
+    at Object.fs.writeFileSync (fs.js:1326:33)
+    at _Profile.save (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/electron-profile/lib/main.js:195:8)
+    at Function._saveWindowStates (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/main/window.js:1:8194)
+    at Window.forceClose (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/main/window.js:1:3567)
+    at EditorM.Window.windows.forEach.e (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/index.js:1:3169)
+    at Array.forEach (native)
+    at App.app.on (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/index.js:1:3155)
+    at emitOne (events.js:96:13)
+    at process.on.t (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/core/editor-init.js:1:360)
+    at emitOne (events.js:101:20)
+    at process.emit (events.js:191:7)
+    at process._fatalException (bootstrap_node.js:308:26)
+2019-08-07T01:24:58.834Z - error: Error: ENOENT: no such file or directory, open '/Users/zckj/demo/Dome/local/layout.windows.json'
+    at Object.fs.openSync (fs.js:584:18)
+    at Object.module.(anonymous function) [as openSync] (ELECTRON_ASAR.js:191:20)
+    at Object.fs.writeFileSync (fs.js:1326:33)
+    at _Profile.save (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/electron-profile/lib/main.js:195:8)
+    at Function._saveWindowStates (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/main/window.js:1:8194)
+    at BrowserWindow.Window.nativeWin.on.e (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/main/window.js:1:2119)
+    at emitOne (events.js:101:20)
+    at BrowserWindow.emit (events.js:191:7)
+    at process.on.t (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/core/editor-init.js:1:360)
+    at emitOne (events.js:101:20)
+    at process.emit (events.js:191:7)
+    at process._fatalException (bootstrap_node.js:308:26)

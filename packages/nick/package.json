@@ -1,0 +1,12 @@
+{
+    "name": "nick",
+    "version": "0.0.1",
+    "description": "test Nick",
+    "author": "cocos nick",
+    "main": "main.js",
+    "main-menu": {
+        "Packages/nick": {
+            "message": "nick:say"
+        }
+    }
+}
